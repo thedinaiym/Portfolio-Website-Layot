@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% load static %}
+
+    <link
+      href="{% static '/css/main.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="card card-body" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/me.jpg' %}" alt="me" />
+            <hr />
+            <h3>Hi, I am Dinaiym!</h3>
+            <p>I love coding, sleeping & eating</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card card-body">
+            <h4>My education</h4>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>IT-Academy of Kyrgyzstan, course: JavaScript && React</td>
+                  <td>01.09.2021-01.06.2022</td>
+                </tr>
+                <tr>
+                  <td>Beeline KG, course: Information Security</td>
+                  <td>01.02.2023-0.1.03.2023</td>
+                </tr>
+                <tr>
+                  <td>Innovation Center(Kyrgyzstan), Machine Learning</td>
+                  <td>10.07.2023-01.02.2024</td>
+                </tr>
+                <tr>
+                  <td>
+                    Ala-Too International University ( Faculty of Computer
+                    Engineering, Department: Applied Mathematics && Informatics)
+                  </td>
+                  <td>01.09.2022-01.07.2026</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-7">
+          <div class="card card-body">
+            <h3>SKILLS</h3>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                Python: OOP, Data Structures, Django, Tkinter, DRF, Aiogram,
+                Telebot
+              </li>
+              <li class="list-group-item">
+                Frontend: HTML5, CSS3, Tailwind CSS, Redis, React Hooks,
+                Bootstrap
+              </li>
+              <li class="list-group-item">
+                Machine Learning: Numpy, Pandas, Matplotlib, Desicion Tree,
+                Regex
+              </li>
+              <li class="list-group-item">Git/GitHub/GitLab</li>
+              <li class="list-group-item">Codepen/Online GDB/Sandbox/Replix</li>
+              <li class="list-group-item">C++(Algorithms/Data Structures)</li>
+              <li class="list-group-item">Operating system: Windows, Linux</li>
+              <li class="list-group-item">
+                VS/PyCharm/Jupiter Notebook/Collab
+              </li>
+              <li class="list-group-item">
+                Linear Algebra, Discrete Mathematics, Calculus(1,2)
+              </li>
+              <li class="list-group-item">Cyber Security Junior skills</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card card-body">
+            <h3>AWARDS</h3>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                Participant IZHO math(only 40 people from country 2022
+              </li>
+              <li class="list-group-item">
+                3rd place in National Math Olympiad 2022
+              </li>
+              <li class="list-group-item">
+                Finalist Phystech International (MIPT) math 2022
+              </li>
+              <li class="list-group-item">
+                3rd place Phystech International online (MIPT) math 2021
+              </li>
+              <li class="list-group-item">
+                3rd place Phystech online (MIPT) math 2022
+              </li>
+              <li class="list-group-item">
+                1th place Gazprom School-student Olympiad 1tour math 2022
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body">
+            <h3>Languages</h3>
+            <p>Kyrgyz – fluently</p>
+            <p>Russian – fluently</p>
+            <p>English – upper-intermediate</p>
+            <p>German – (learning)</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+           <div class="card card-body">
+          <h3>GPA</h3>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Ala-Too International University ( Faculty of Computer
+                  Engineering, Department: Applied Mathematics && Informatics
+                </td>
+                <td>3.73/4.0 (International grading system)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
